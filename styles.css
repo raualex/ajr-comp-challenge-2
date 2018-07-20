@@ -2,3 +2,82 @@ body {
   background-color: #000000;
   color: #ffffff;
 }
+
+h2, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.main-logo, h1 {
+  font-family: 'Righteous', cursive;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+.bauhaus {
+  background-image: url('Images/bauhaus.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.blutengel {
+  background-image: url('Images/blutengel.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.clan-ox {
+  background-image: url('Images/clanofxymox.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.das-ich {
+  background-image: url('Images/dasich.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.deine-lakaien {
+  background-image: url('Images/deinelakaien.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.fields-otn{
+  background-image: url('Images/fieldsotn.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.the-sisters {
+  background-image: url('Images/thesisters.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+.type-o {
+  background-image: url('Images/typeo.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}

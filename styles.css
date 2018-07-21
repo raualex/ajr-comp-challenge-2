@@ -1,6 +1,15 @@
+a {
+  background-color: #f2f2f2;
+  border: 1px #f2f2f2;
+}
+
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+div {
+  height: 200px;
 }
 
 h2, h4 {
@@ -8,13 +17,20 @@ h2, h4 {
 }
 
 header {
+  background-color: #000000;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
+  height: 200px;
 }
 
 img {
   height: 50px;
   width: 50px;
+}
+
+.band-box {
+  box-shadow: 1px 1px 1px 1px gray;
 }
 
 .main-logo, h1 {
@@ -24,60 +40,74 @@ img {
 .main-wrapper {
   display: grid;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
 }
 
 .bauhaus {
   background-image: url('Images/bauhaus.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .blutengel {
   background-image: url('Images/blutengel.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .clan-ox {
   background-image: url('Images/clanofxymox.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .das-ich {
   background-image: url('Images/dasich.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .deine-lakaien {
   background-image: url('Images/deinelakaien.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .fields-otn{
   background-image: url('Images/fieldsotn.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .the-sisters {
   background-image: url('Images/thesisters.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
 
 .type-o {
   background-image: url('Images/typeo.jpg');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 100% 100%;
 }
+
+@media screen and (max-width: 1460px) {
+  .main-wrapper {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+}
+
+
+

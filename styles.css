@@ -1,6 +1,8 @@
 a {
   background-color: #f2f2f2;
   border: 1px #f2f2f2;
+  padding: 2px;
+  width: 320px;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
 }
 
 div {
-  height: 200px;
+  height: 250px;
 }
 
 h2, h4 {
@@ -30,7 +32,16 @@ img {
 }
 
 .band-box {
+  background-color: #ffffff;
   box-shadow: 1px 1px 1px 1px gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore {
+  margin-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 30px;
 }
 
 .main-logo, h1 {
@@ -49,6 +60,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .blutengel {
@@ -56,6 +68,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .clan-ox {
@@ -63,6 +76,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .das-ich {
@@ -70,6 +84,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .deine-lakaien {
@@ -77,6 +92,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .fields-otn{
@@ -84,6 +100,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .the-sisters {
@@ -91,6 +108,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 .type-o {
@@ -98,6 +116,7 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1460px) {

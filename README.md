@@ -22,4 +22,4 @@ In this comp challenge, I made a basic, introductory page to Goth music, spannin
 
 Image of the Comp: ![alt text](https://raw.githubusercontent.com/raualex/ajr-comp-challenge-2/Add-images/Images/static-comp-challenge-2.jpg)
 
-Image of my version: ![alt text]()
+Image of my version: ![alt text](https://raw.githubusercontent.com/raualex/ajr-comp-challenge-2/Begin-media-queries/Images/static-comp-2-finished.png)

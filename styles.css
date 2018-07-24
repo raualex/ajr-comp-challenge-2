@@ -7,14 +7,16 @@ body {
   background-color: #f2f2f2;
   color: #000000;
   margin: 0;
+  width: 100vw;
 }
 
 div {
   height: 250px;
 }
 
-h2, h4 {
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 30pt;
 }
 
 h2 {
@@ -22,13 +24,17 @@ h2 {
   margin: 0;
 }
 
+h2, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   background-color: #000000;
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   height: 200px;
+  justify-content: space-between;
   padding: 20px;
 }
 
@@ -58,9 +64,74 @@ img {
   padding: 20px;
 }
 
+.bauhaus {
+  background-image: url('Images/bauhaus.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.blutengel {
+  background-image: url('Images/blutengel.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.clan-ox {
+  background-image: url('Images/clanofxymox.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .cross-logo {
   height: 78px;
   width: 82px;
+}
+
+.das-ich {
+  background-image: url('Images/dasich.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.deine-lakaien {
+  background-image: url('Images/deinelakaien.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .explore {
@@ -69,11 +140,33 @@ img {
   padding-top: 24px;
 }
 
+.fields-otn{
+  background-image: url('Images/fieldsotn.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .genre {
   color: #808080;
   font-size: 11.5pt;
   margin-bottom: 30px;
   margin-top: 4px;
+}
+
+.inner-heading {
+  align-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  height: 136px;
+  margin: 0;
+  width: 100px;
 }
 
 .link-box {
@@ -85,18 +178,18 @@ img {
 }
 
 .logo-box-1 {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
   height: 58px;
+  justify-content: space-around;
   width: 215px;
 }
 
 .logo-box-2 {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
   height: 140px;
+  justify-content: space-around;
   padding-right: 36px;
   width: 215px;
 }
@@ -111,12 +204,6 @@ img {
   width: 20px;
 }
 
-.m-icons {
-  height: 40px;
-  margin-right: 24px;
-  width: 30px;
-}
-
 .main-logo {
   font-family: 'Righteous', cursive;
   font-size: 50pt;
@@ -124,16 +211,11 @@ img {
   margin-bottom: 102px;
 }
 
-h1 {
-  font-family: 'Righteous', cursive;
-  font-size: 30pt;
-}
-
 .main-wrapper {
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 20px;
   margin: 20px;
 }
 
@@ -146,6 +228,12 @@ h1 {
   justify-content: space-around;
   padding-bottom: 48px;
   padding-left: 30px;
+}
+
+.m-icons {
+  height: 40px;
+  margin-right: 24px;
+  width: 30px;
 }
 
 .releases {
@@ -170,121 +258,6 @@ h1 {
   margin-bottom: 8px;
 }
 
-.titles {
-  font-size: 1.5em;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.top-number {
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-  width: 100%;
-  text-align: center;
-}
-
-.views {
-  margin: 0;
-  padding-bottom: 5px;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-  width: 100%;
-  text-align: center;
-}
-
-.bauhaus {
-  background-image: url('Images/bauhaus.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.blutengel {
-  background-image: url('Images/blutengel.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.clan-ox {
-  background-image: url('Images/clanofxymox.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.das-ich {
-  background-image: url('Images/dasich.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.deine-lakaien {
-  background-image: url('Images/deinelakaien.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.fields-otn{
-  background-image: url('Images/fieldsotn.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.inner-heading {
-  align-content: center;
-  display: inline-flex;
-  flex-direction: column;
-  height: 136px;
-  margin: 0;
-  width: 100px;
-}
-
 .the-sisters {
   align-items: flex-start;
   background-image: url('Images/thesisters.jpg');
@@ -295,8 +268,24 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
   padding-left: 20px;
+  padding-top: 20px;
+}
+
+.titles {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.top-number {
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  width: 100%;
 }
 
 .type-o {
@@ -308,33 +297,109 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
   padding-left: 20px;
+  padding-top: 20px;
 }
 
-/*@media screen and (max-width: 1460px) {
-  .main-wrapper {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    grid-gap: 20px;
-    margin: 20px;
-}
-}
-
-@media screen and (max-width: 1046px) {
-  .main-wrapper {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    grid-gap: 20px;
-    margin: 20px;
-}
+.views {
+  margin: 0;
+  padding-bottom: 5px;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  width: 100%;
 }
 
-@media screen and (max-width: 702px) {
-  .main-wrapper {
-    display: grid;
-    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
-    grid-gap: 20px;
-    margin: 20px;*/
+@media screen and (max-width: 1096px) {
+
+body {
+  width: 100vw;
 }
+
+.menu-images {
+  flex-direction: column;
+  padding: 0;
 }
+
+}
+
+@media screen and (max-width: 560px) {
+
+body {
+  width: 100vw;
+}
+
+header {
+  align-items: center;
+  flex-direction : column;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+.m-icons {
+  margin: 0;
+}
+
+.main-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  margin: 14px;
+}
+
+.menu-images {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-top: 34px;
+  padding: 0;
+}
+
+.menu-images div {
+  height: 50px;
+  width: 50px;
+}
+
+.menu-words {
+  display: none;
+}
+
+.right-head {
+  order: -1;
+}
+
+.shares-title, .playlists-title, .music-videos-title {
+  border: solid 1px #ffffff;
+  justify-content: space-around;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+body {
+  width: 100vw;
+}
+
+.main-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
+  margin: 20px;
+}
+
+.menu-images {
+  margin-left: 30px;
+}
+
+.right-head {
+  margin-left: 42px;
+}
+
+}
+
+
+
+
+
+
